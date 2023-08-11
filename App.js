@@ -15,6 +15,7 @@ app.get("/products-cart", controllers.getProductsCart);
 
 /* POST */
 //app.post("/products", controllers.add);
+app.post("/products", controllers.addProduct);
 app.post("/products-cart", controllers.addProductCart);
 
 /* PUT */
